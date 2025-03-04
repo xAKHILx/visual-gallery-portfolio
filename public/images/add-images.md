@@ -1,6 +1,7 @@
-# Add Your Images Here 🖼️
+# Add Your Images Here  
 
-This folder is for storing images used in the **Visual Gallery Portfolio**.
+These images are **dummy placeholders** sourced from **Pexels**.  
+They are used to showcase the gallery layout and should be replaced with original content.  
 
 ### 📌 How to Add Images:
 

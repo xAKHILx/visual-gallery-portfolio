@@ -1,6 +1,9 @@
-# Add Your Logo Here 🎨
+# Add Your Logo Here  
 
-This folder is for storing the logo used in **Visual Gallery Portfolio**.
+The current logo and name are **dummy placeholders**.  
+The logo was **AI-generated** and does not represent an actual brand or identity.  
+Replace it with your own branding before deploying.  
+
 
 ### 📌 How to Add Your Logo:
 
