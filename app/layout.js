@@ -1,5 +1,18 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { UnifrakturMaguntia, Archivo_Black } from "next/font/google";
+
+const unifraktur = UnifrakturMaguntia({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-unifraktur",
+});
+
+const archivo = Archivo_Black({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-archivo",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +33,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${unifraktur.variable} ${archivo.variable}${geistSans.variable}${geistMono.variable} antialiased`}
       >
         {children}
       </body>

@@ -7,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        unifraktur: ["UnifrakturMaguntia", "cursive"],
+        archivo: ["Archivo Black", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
